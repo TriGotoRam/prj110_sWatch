@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="24" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="24" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -48,18 +48,18 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="13" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="9" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Datasheet" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Hidden" color="15" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Changes" color="12" fill="1" visible="no" active="yes"/>
 <layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
@@ -188,7 +188,7 @@
 <dimension x1="-6" y1="35" x2="-6" y2="18.5" x3="-6.8" y3="26.75" textsize="1" textratio="15" layer="47"/>
 <dimension x1="-6" y1="0" x2="-6" y2="13" x3="-6.8" y3="6.5" textsize="1" textratio="15" layer="47"/>
 <dimension x1="-6" y1="13" x2="-6" y2="18.5" x3="-6.8" y3="15.75" textsize="1" textratio="15" layer="47"/>
-<text x="8.1" y="32.1" size="0.8" layer="26" font="vector" ratio="12" rot="MR180" align="center">trigotoram@gmail.com</text>
+<text x="8.1" y="31.1" size="0.6" layer="26" font="vector" ratio="12" rot="MR180" align="center">trigotoram@gmail.com</text>
 <dimension x1="19" y1="27" x2="19" y2="5" x3="21" y3="16" textsize="1" textratio="15" layer="47"/>
 <wire x1="0.4" y1="11.3" x2="0.4" y2="10.9" width="0.2" layer="41"/>
 <wire x1="1.5" y1="13.7" x2="2" y2="13.4" width="0.2" layer="41"/>
@@ -1267,72 +1267,206 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FIDUCIAL1" library="!ht3_misc" package="FIDUCIAL-MICRO" value="FIDUCIAL-MICRO" x="14" y="32" rot="R180"/>
-<element name="U1" library="!ht3_ic" package="SOT23-5L" value="LTC4054" x="7.6" y="29.9" rot="R90"/>
-<element name="R2" library="!ht3_passive" package="R0402" value="10K" x="6.4" y="27.8"/>
-<element name="C16" library="!ht3_passive" package="C0603" value="4.7uF" x="13.2" y="30"/>
-<element name="C18" library="!ht3_passive" package="C0603" value="4.7uF" x="12.4" y="24.3" rot="R180"/>
-<element name="U4" library="!ht3_ic" package="LGA16" value="LIS3DH" x="2" y="27" rot="R180"/>
-<element name="C24" library="!ht3_passive" package="C0402" value="1uF" x="1.2" y="29.8" rot="R180"/>
-<element name="R5" library="!ht3_passive" package="R0402" value="1M" x="1.1" y="22.9"/>
-<element name="R6" library="!ht3_passive" package="R0402" value="1M" x="1.1" y="23.8" rot="R180"/>
-<element name="Y1" library="!ht3_misc" package="XTAL3215" value="32.768" x="1.5" y="2.3" rot="R270"/>
-<element name="Y2" library="!ht3_misc" package="CRYSTAL-SMD-3225" value="26MHz" x="7" y="14.8" rot="R270"/>
-<element name="C9" library="!ht3_passive" package="C0402" value="10pF" x="10" y="14.8" rot="R90"/>
-<element name="C1" library="!ht3_passive" package="C0402" value="10pF" x="7" y="17.2"/>
-<element name="R1" library="!ht3_passive" package="R0402" value="1M/10%" x="9.1" y="14.8" rot="R270"/>
-<element name="DS1" library="!ht3_modules" package="LCD-0.96-80*160" value="LCD-0.96-80160" x="7.5" y="23.9" rot="MR0"/>
-<element name="X1" library="!ht3_connectors" library_urn="urn:adsk.eagle:library:3949177" package="2C_SMD-SWATCH" value="PCB" x="1.4" y="32.2" rot="R270"/>
-<element name="Q3" library="!ht3_transistor" package="SOT23-3-1" value="IRLML0030" x="13" y="18.9" rot="R270"/>
+<element name="FIDUCIAL1" library="!ht3_misc" package="FIDUCIAL-MICRO" value="FIDUCIAL-MICRO" x="14" y="32" smashed="yes" rot="R180"/>
+<element name="U1" library="!ht3_ic" package="SOT23-5L" value="LTC4054" x="7.6" y="29.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="9" y="28" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="9.6" y="29.9" size="1" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="R2" library="!ht3_passive" package="R0402" value="10K" x="6.4" y="27.8" smashed="yes">
+<attribute name="NAME" x="7.9" y="27.8" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="C16" library="!ht3_passive" package="C0603" value="4.7uF" x="13.2" y="30" smashed="yes">
+<attribute name="NAME" x="13" y="31.2" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="13.2" y="29" size="0.7" layer="27" font="vector" ratio="12" align="center"/>
+</element>
+<element name="C18" library="!ht3_passive" package="C0603" value="4.7uF" x="12.4" y="24.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.1" y="24.6" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="12.4" y="25.3" size="0.7" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="U4" library="!ht3_ic" package="LGA16" value="LIS3DH" x="2" y="27" smashed="yes" rot="R180">
+<attribute name="NAME" x="4.3" y="27" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="2" y="27" size="0.3" layer="27" font="vector" rot="R180" align="center"/>
+</element>
+<element name="C24" library="!ht3_passive" package="C0402" value="1uF" x="1.2" y="29.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.4" y="30.6" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="R5" library="!ht3_passive" package="R0402" value="1M" x="1.1" y="22.9" smashed="yes">
+<attribute name="NAME" x="0.7" y="22.1" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="R6" library="!ht3_passive" package="R0402" value="1M" x="1.1" y="23.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.3" y="23.9" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="Y1" library="!ht3_misc" package="XTAL3215" value="32.768" x="1.5" y="2.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.9" y="4.8" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="1.5" y="2.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+</element>
+<element name="Y2" library="!ht3_misc" package="CRYSTAL-SMD-3225" value="26MHz" x="7" y="14.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.4" y="17.1" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="C9" library="!ht3_passive" package="C0402" value="10pF" x="10" y="14.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.7" y="16.2" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="C1" library="!ht3_passive" package="C0402" value="10pF" x="7" y="17.2" smashed="yes">
+<attribute name="NAME" x="7" y="18" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="R1" library="!ht3_passive" package="R0402" value="1M/10%" x="9.1" y="14.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="9" y="16.3" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="DS1" library="!ht3_modules" package="LCD-0.96-80*160" value="LCD-0.96-80160" x="7.5" y="23.9" smashed="yes" rot="MR0"/>
+<element name="X1" library="!ht3_connectors" library_urn="urn:adsk.eagle:library:3949177" package="2C_SMD-SWATCH" value="PCB" x="1.4" y="32.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.4" y="31.4" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="-1.14" y="29.279" size="1.27" layer="27" ratio="20"/>
+</element>
+<element name="Q3" library="!ht3_transistor" package="SOT23-3-1" value="IRLML0030" x="13" y="18.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.6" y="18.9" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="10.5" y="18.9" size="0.6" layer="27" font="vector" rot="R270" align="center"/>
+</element>
 <element name="CP3" library="!ht3_connectors" package="CP-1-C08MM" value="ANT" x="1.3" y="12.7" smashed="yes" rot="R180">
 <attribute name="VALUE" x="2.5" y="12.4" size="0.4" layer="21" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="RA1" library="!ht3_passive" package="EXB28V" value="10K" x="7.5" y="1.2" rot="R180"/>
-<element name="RA2" library="!ht3_passive" package="EXB28V" value="10K" x="2.3" y="17" rot="R90"/>
-<element name="R7" library="!ht3_passive" package="R0603" value="10" x="4.3" y="20.5" rot="R270"/>
-<element name="CP1" library="!ht3_connectors" package="CP-1-R08MM" value="GND" x="11.1" y="33"/>
-<element name="CP2" library="!ht3_connectors" package="CP-1-R08MM" value="+5V" x="4" y="33"/>
-<element name="X3" library="!ht3_connectors" library_urn="urn:adsk.eagle:library:3949177" package="2C_SMD-SWATCH" value="PCB" x="11.5" y="1.5"/>
-<element name="R8" library="!ht3_passive" package="R0603" value="10" x="13.8" y="22.1" rot="R270"/>
-<element name="Q2" library="!ht3_transistor" package="SOT23-3-1" value="IRLML0030" x="1.9" y="20.5"/>
-<element name="C25" library="!ht3_passive" package="C0402" value="100nF" x="1.1" y="24.7"/>
-<element name="U2" library="!ht3_ic" package="SOT23-3" value="MCP170x-3.3" x="12.4" y="27.1"/>
-<element name="C4" library="!ht3_passive" package="C0603" value="4.7uF" x="4.8" y="29.6" rot="R270"/>
-<element name="C14" library="!ht3_passive" package="C0402" value="100nF" x="5.3" y="0.8" rot="R180"/>
-<element name="C13" library="!ht3_passive" package="C0402" value="270pF" x="2" y="5.7" rot="R270"/>
-<element name="C12" library="!ht3_passive" package="C0402" value="270pF" x="0.8" y="5.7" rot="R270"/>
-<element name="C11" library="!ht3_passive" package="C0402" value="3.9pF" x="2.3" y="11.3" rot="R315"/>
-<element name="L1" library="!ht3_inductor" package="L0402" value="2.7nH" x="2.4" y="10"/>
-<element name="C10" library="!ht3_passive" package="C0402" value="2.4pF" x="1" y="11" rot="R270"/>
-<element name="C2" library="!ht3_passive" package="C0402" value="100nF" x="4.8" y="13.7" rot="R90"/>
-<element name="U3" library="!ht3_ic" package="QFN48-6X6-0.4MM" value="ESP32" x="7" y="8">
-<attribute name="PROD_ID" value="IC-13338" x="-67" y="-99" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<element name="RA1" library="!ht3_passive" package="EXB28V" value="10K" x="7.5" y="1.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.5" y="2.4" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="7.5" y="2.2" size="0.5" layer="27" font="vector" rot="R180" align="center"/>
 </element>
-<element name="OLED1" library="!ht3_modules" package="OLED_0.49-SSD1306" value="OLED-0.49-SSD1306" x="7.5" y="25.8" rot="MR0"/>
-<element name="U5" library="!ht3_ic" package="USON-8-2X3" value="25Q32" x="13" y="8" rot="R270"/>
-<element name="C26" library="!ht3_passive" package="C0603" value="1uF" x="12" y="4.6" rot="R180"/>
-<element name="C15" library="!ht3_passive" package="C0402" value="10nF" x="4.3" y="15.1"/>
-<element name="R3" library="!ht3_passive" package="R0402" value="20K" x="3" y="13.7" rot="R90"/>
-<element name="C17" library="!ht3_passive" package="C0402" value="3nF" x="3.9" y="13.7" rot="R90"/>
-<element name="C8" library="!ht3_passive" package="C0402" value="12pF" x="3.3" y="1.2" rot="R90"/>
-<element name="C3" library="!ht3_passive" package="C0402" value="12pF" x="3.3" y="3" rot="R270"/>
-<element name="CP4" library="!ht3_connectors" package="CP-1-C08MM" value="TX" x="10.8" y="16.5" rot="R90"/>
-<element name="CP5" library="!ht3_connectors" package="CP-1-C08MM" value="RX" x="11.5" y="15.4" rot="R90"/>
-<element name="CP8" library="!ht3_connectors" package="CP-1-C08MM" value="RESET" x="5.1" y="2.6"/>
-<element name="CP9" library="!ht3_connectors" package="CP-1-C08MM" value="BOOT" x="9" y="3.8" rot="R180"/>
-<element name="CP7" library="!ht3_connectors" package="CP-1-C08MM" value="TR" x="4" y="1.5" rot="MR0"/>
-<element name="CP6" library="!ht3_connectors" package="CP-1-C08MM" value="TL" x="11" y="1.5" rot="MR0"/>
-<element name="C5" library="!ht3_passive" package="C0603" value="100nF" x="1.6" y="8.8" rot="R180"/>
-<element name="C6" library="!ht3_passive" package="C0402" value="100nF" x="1.1" y="7.6" rot="R180"/>
-<element name="C7" library="!ht3_passive" package="C0402" value="100nF" x="7" y="3.4"/>
-<element name="VD1" library="!ht3_diode" package="SOD523" value="4148" x="13.7" y="16.7"/>
-<element name="LOGO1" library="!ht3_misc" package="LOGO_OMEGA" value="LOGO6" x="8" y="33"/>
-<element name="C19" library="!ht3_passive" package="C0603" value="1uFx16V" x="10.7" y="22" rot="R270"/>
-<element name="C20" library="!ht3_passive" package="C0603" value="1uFx16V" x="9.1" y="22" rot="R90"/>
-<element name="C23" library="!ht3_passive" package="C0603" value="100nF" x="4.1" y="23.3" rot="R180"/>
-<element name="C21" library="!ht3_passive" package="C0805" value="2.2uFx16V" x="7.3" y="26.2"/>
-<element name="C22" library="!ht3_passive" package="C0805" value="4.7uFx16V" x="5.9" y="20.8" rot="R270"/>
-<element name="R4" library="!ht3_passive" package="R0603" value="390-560K" x="7" y="24.6" rot="R180"/>
+<element name="RA2" library="!ht3_passive" package="EXB28V" value="10K" x="2.3" y="17" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.5" y="17" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="VALUE" x="3.3" y="17" size="0.5" layer="27" font="vector" rot="R90" align="center"/>
+</element>
+<element name="R7" library="!ht3_passive" package="R0603" value="10" x="4.3" y="20.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.2" y="18.5" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="3.3" y="20.5" size="0.7" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="CP1" library="!ht3_connectors" package="CP-1-R08MM" value="GND" x="11.1" y="33" smashed="yes"/>
+<element name="CP2" library="!ht3_connectors" package="CP-1-R08MM" value="+5V" x="4" y="33" smashed="yes"/>
+<element name="X3" library="!ht3_connectors" library_urn="urn:adsk.eagle:library:3949177" package="2C_SMD-SWATCH" value="PCB" x="11.5" y="1.5" smashed="yes">
+<attribute name="NAME" x="11.4" y="3.2" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="14.421" y="-1.04" size="1.27" layer="27" ratio="20" rot="R90"/>
+</element>
+<element name="R8" library="!ht3_passive" package="R0603" value="10" x="13.8" y="22.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.6" y="21.2" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="12.8" y="22.1" size="0.7" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="Q2" library="!ht3_transistor" package="SOT23-3-1" value="IRLML0030" x="1.9" y="20.5" smashed="yes">
+<attribute name="NAME" x="3.5" y="18.4" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="1.9" y="18" size="0.6" layer="27" font="vector" align="center"/>
+</element>
+<element name="C25" library="!ht3_passive" package="C0402" value="100nF" x="1.1" y="24.7" smashed="yes">
+<attribute name="NAME" x="2.9" y="24.8" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="U2" library="!ht3_ic" package="SOT23-3" value="MCP170x-3.3" x="12.4" y="27.1" smashed="yes">
+<attribute name="NAME" x="13.6" y="28.3" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="12.4" y="24.6" size="0.6" layer="27" font="vector" align="center"/>
+</element>
+<element name="C4" library="!ht3_passive" package="C0603" value="4.7uF" x="4.8" y="29.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.7" y="29.7" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="3.8" y="29.6" size="0.7" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="C14" library="!ht3_passive" package="C0402" value="100nF" x="5.3" y="0.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.4" y="1.6" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="C13" library="!ht3_passive" package="C0402" value="270pF" x="2" y="5.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="2" y="5.7" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="C12" library="!ht3_passive" package="C0402" value="270pF" x="0.8" y="5.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.8" y="5.7" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="C11" library="!ht3_passive" package="C0402" value="3.9pF" x="2.3" y="11.3" smashed="yes" rot="R315">
+<attribute name="NAME" x="3.1" y="11.5" size="0.6" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+</element>
+<element name="L1" library="!ht3_inductor" package="L0402" value="2.7nH" x="2.4" y="10" smashed="yes">
+<attribute name="NAME" x="1.8" y="10.7" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="C10" library="!ht3_passive" package="C0402" value="2.4pF" x="1" y="11" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.3" y="11" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="C2" library="!ht3_passive" package="C0402" value="100nF" x="4.8" y="13.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.7" y="12.2" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="U3" library="!ht3_ic" package="QFN48-6X6-0.4MM" value="ESP32" x="7" y="8" smashed="yes">
+<attribute name="NAME" x="10.6" y="11.6" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="PROD_ID" value="IC-13338" x="-67" y="-99" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="7" y="4.571" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="OLED1" library="!ht3_modules" package="OLED_0.49-SSD1306" value="OLED-0.49-SSD1306" x="7.5" y="25.8" smashed="yes" rot="MR0"/>
+<element name="U5" library="!ht3_ic" package="USON-8-2X3" value="25Q32" x="13" y="8" smashed="yes" rot="R270">
+<attribute name="NAME" x="14" y="10.4" size="0.6" layer="25" ratio="12" align="center"/>
+</element>
+<element name="C26" library="!ht3_passive" package="C0603" value="1uF" x="12" y="4.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.1" y="3.4" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="12" y="5.6" size="0.7" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="C15" library="!ht3_passive" package="C0402" value="10nF" x="4.3" y="15.1" smashed="yes">
+<attribute name="NAME" x="4.5" y="15.9" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="R3" library="!ht3_passive" package="R0402" value="20K" x="3" y="13.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.3" y="13.6" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="C17" library="!ht3_passive" package="C0402" value="3nF" x="3.9" y="13.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.9" y="12.1" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="C8" library="!ht3_passive" package="C0402" value="12pF" x="3.3" y="1.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.1" y="1.4" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="C3" library="!ht3_passive" package="C0402" value="12pF" x="3.3" y="3" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.1" y="2.9" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="CP4" library="!ht3_connectors" package="CP-1-C08MM" value="TX" x="10.8" y="16.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="10.5" y="17.6" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="CP5" library="!ht3_connectors" package="CP-1-C08MM" value="RX" x="11.5" y="15.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12" y="14.3" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="CP8" library="!ht3_connectors" package="CP-1-C08MM" value="RESET" x="5.1" y="2.6" smashed="yes">
+<attribute name="VALUE" x="5" y="3.7" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="CP9" library="!ht3_connectors" package="CP-1-C08MM" value="BOOT" x="9" y="3.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="10.5" y="3.4" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="CP7" library="!ht3_connectors" package="CP-1-C08MM" value="TR" x="4" y="1.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="2.6" y="1.5" size="0.8" layer="26" font="vector" ratio="12" rot="MR0" align="center"/>
+</element>
+<element name="CP6" library="!ht3_connectors" package="CP-1-C08MM" value="TL" x="11" y="1.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="9.5" y="1.5" size="0.8" layer="26" font="vector" ratio="12" rot="MR0" align="center"/>
+</element>
+<element name="C5" library="!ht3_passive" package="C0603" value="100nF" x="1.6" y="8.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.7" y="7.6" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="1.6" y="9.8" size="0.7" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="C6" library="!ht3_passive" package="C0402" value="100nF" x="1.1" y="7.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.4" y="7" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="C7" library="!ht3_passive" package="C0402" value="100nF" x="7" y="3.4" smashed="yes">
+<attribute name="NAME" x="6.3" y="4.2" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+</element>
+<element name="VD1" library="!ht3_diode" package="SOD523" value="4148" x="13.7" y="16.7" smashed="yes">
+<attribute name="NAME" x="13.7" y="15.9" size="0.6" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="13.065" y="14.795" size="1.27" layer="27"/>
+</element>
+<element name="LOGO1" library="!ht3_misc" package="LOGO_OMEGA" value="LOGO6" x="8" y="33" smashed="yes"/>
+<element name="C19" library="!ht3_passive" package="C0603" value="1uFx16V" x="10.7" y="22" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.9" y="22.3" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="9.7" y="22" size="0.7" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
+</element>
+<element name="C20" library="!ht3_passive" package="C0603" value="1uFx16V" x="9.1" y="22" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.9" y="22.3" size="0.6" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="VALUE" x="10.1" y="22" size="0.7" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
+</element>
+<element name="C23" library="!ht3_passive" package="C0603" value="100nF" x="4.1" y="23.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="3.1" y="21.9" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="4.1" y="24.3" size="0.7" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
+<element name="C21" library="!ht3_passive" package="C0805" value="2.2uFx16V" x="7.3" y="26.2" smashed="yes">
+<attribute name="NAME" x="9.7" y="26.2" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="7.3" y="26.2" size="0.5" layer="27" font="vector" align="center"/>
+</element>
+<element name="C22" library="!ht3_passive" package="C0805" value="4.7uFx16V" x="5.9" y="20.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.3" y="20.8" size="0.6" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="5.9" y="20.8" size="0.5" layer="27" font="vector" rot="R270" align="center"/>
+</element>
+<element name="R4" library="!ht3_passive" package="R0603" value="390-560K" x="7" y="24.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.5" y="23.5" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="7" y="25.6" size="0.7" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+</element>
 <element name="X2" library="!ht3_connectors" package="SMD-SWATCH-I2C-5" value="I2C-SMD-SWATCH-I2C-5" x="4.1" y="16" rot="MR90"/>
 </elements>
 <signals>
@@ -1460,7 +1594,7 @@ design rules under a new name.</description>
 <wire x1="5.9" y1="18.9" x2="4.8" y2="17.8" width="0.15" layer="16"/>
 <via x="1.3" y="30.6" extent="1-16" drill="0.3" diameter="0.4"/>
 <via x="14" y="31.1" extent="1-16" drill="0.3" diameter="0.4"/>
-<via x="9.4" y="27.9" extent="1-16" drill="0.3" diameter="0.4"/>
+<via x="10" y="28" extent="1-16" drill="0.3" diameter="0.4"/>
 <via x="2.1" y="31.7" extent="1-16" drill="0.3" diameter="0.4"/>
 <via x="2.1" y="32.7" extent="1-16" drill="0.3" diameter="0.4"/>
 <via x="2.1" y="34.1" extent="1-16" drill="0.3" diameter="0.4"/>
